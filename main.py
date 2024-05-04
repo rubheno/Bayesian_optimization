@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from skopt import BayesSearchCV
 
-# Cargar los datos
+# Cargar los datos.
 iris = load_iris()
 X = iris.data
 y = iris.target
